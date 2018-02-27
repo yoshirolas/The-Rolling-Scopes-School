@@ -10,3 +10,8 @@ The results of my studies at The Rolling Scopes School
 * [guessing-game](/guessing-game)
 * [tic-tac-toe](/tic-tac-toe)
 * [zeros](/zeros)
+
+## Stage 2
+* [positions-and-floats](/positions-and-floats)
+* [css-recipes-and-layouts](/css-recipes-and-layouts)
+* [match-match-game](/match-match-game)
