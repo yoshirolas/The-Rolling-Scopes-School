@@ -1,0 +1,688 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "https://school.rollingscopes.com/",
+ "responseCode": 200,
+ "title": "RS | School",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 58
+  }
+ },
+ "loadingExperience": {
+  "id": "https://school.rollingscopes.com/",
+  "metrics": {
+   "FIRST_CONTENTFUL_PAINT_MS": {
+    "median": 1017,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 984,
+      "proportion": 0.48676056338028173
+     },
+     {
+      "min": 984,
+      "max": 2073,
+      "proportion": 0.38524647887323943
+     },
+     {
+      "min": 2073,
+      "proportion": 0.12799295774647884
+     }
+    ],
+    "category": "AVERAGE"
+   },
+   "DOM_CONTENT_LOADED_EVENT_FIRED_MS": {
+    "median": 884,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 1366,
+      "proportion": 0.6667291311754684
+     },
+     {
+      "min": 1366,
+      "max": 2787,
+      "proportion": 0.2658347529812607
+     },
+     {
+      "min": 2787,
+      "proportion": 0.06743611584327087
+     }
+    ],
+    "category": "FAST"
+   }
+  },
+  "overall_category": "AVERAGE",
+  "initial_url": "https://school.rollingscopes.com/"
+ },
+ "pageStats": {
+  "numberResources": 30,
+  "numberHosts": 9,
+  "totalRequestBytes": "4128",
+  "numberStaticResources": 16,
+  "htmlResponseBytes": "45591",
+  "overTheWireResponseBytes": "1704178",
+  "cssResponseBytes": "337605",
+  "imageResponseBytes": "946509",
+  "javascriptResponseBytes": "1432854",
+  "otherResponseBytes": "164525",
+  "numberJsResources": 8,
+  "numberCssResources": 4,
+  "numTotalRoundTrips": 13,
+  "numRenderBlockingRoundTrips": 4
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has no redirects. Learn more about {{BEGIN_LINK}}avoiding landing page redirects{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0309,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Compressing resources with gzip or deflate can reduce the number of bytes sent over the network."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Enable compression{{END_LINK}} for the following resources to reduce their transfer size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "309B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "55%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/scripts/main.js"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "309B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "55%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 4.904761904761904,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Leverage browser caching{{END_LINK}} for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}} (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/logo_rs2.svg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/logo_rs_text.svg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/enrollment.jpg"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/epam-systems.jpg"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/github_logo.png"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/logo_guru.png"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/scripts/main.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/styles/new-main.css"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://static.doubleclick.net/instream/ad_status.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "15 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://ssl.google-analytics.com/ga.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "2 hours"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your server responded quickly. Learn more about {{BEGIN_LINK}}server response time optimization{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/Server"
+      }
+     ]
+    }
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.2248,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Minify CSS{{END_LINK}} for the following resources to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "2.2KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "40%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/styles/new-main.css"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "2.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "40%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your HTML is minified. Learn more about {{BEGIN_LINK}}minifying HTML{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your JavaScript content is minified. Learn more about {{BEGIN_LINK}}minifying JavaScript{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 8.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has {{NUM_SCRIPTS}} blocking script resources and {{NUM_CSS}} blocking CSS resources. This causes a delay in rendering your page.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_SCRIPTS",
+       "value": "1"
+      },
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "2"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Remove render-blocking JavaScript{{END_LINK}}:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/scripts/main.js"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize CSS Delivery{{END_LINK}} of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://fonts.googleapis.com/css?family=Cuprum:400,700&subset=cyrillic,latin-ext"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/styles/new-main.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 64.7071,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Properly formatting and compressing images can save many bytes of data."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "631.9KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "71%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/epam-systems.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "566.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "99%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/enrollment.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "50.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "18%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/github_logo.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "9.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "77%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://school.rollingscopes.com/images/partners/logo_guru.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "4.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "63%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "You have the above-the-fold content properly prioritized. Learn more about {{BEGIN_LINK}}prioritizing visible content{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}
