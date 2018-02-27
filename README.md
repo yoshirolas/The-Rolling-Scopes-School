@@ -20,3 +20,4 @@ The results of my studies at The Rolling Scopes School
 
 ## Stage 3
 * [to-do-list](/to-do-list)
+* [node-pagespeed](/node-pagespeed)
