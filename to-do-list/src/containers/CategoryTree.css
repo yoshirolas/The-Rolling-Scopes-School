@@ -1,0 +1,79 @@
+.categoryList {
+  width: 100%;
+  height: 80vh;
+  font-size: 18px;
+  overflow: overlay;
+}
+
+.categoryParentItem {
+  height: 40px;
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1px 5px 1px 5px;
+  background: white;
+}
+
+.categoryParentItem:hover {
+  cursor: pointer;
+}
+
+.categoryParentClickedItem {
+  height: 40px;
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1px 5px 1px 5px;
+  background: rgb(0, 188, 212);
+}
+
+.categoryParentClickedItem:hover {
+  cursor: pointer;
+}
+
+.categoryChildItem {
+  height: 40px;
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1px 5px 1px 35px;
+  background: white;
+}
+
+.categoryChildItem:hover {
+  cursor: pointer;
+}
+
+
+.categoryChildClickedItem {
+  height: 40px;
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1px 5px 1px 35px;
+  background: rgb(0, 188, 212);
+}
+
+.categoryChildClickedItem:hover {
+  cursor: pointer;
+}
+
+.categoryTitle {
+  display: block;
+  width: 170px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

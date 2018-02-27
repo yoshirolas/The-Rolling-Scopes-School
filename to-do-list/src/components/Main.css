@@ -1,0 +1,15 @@
+main {
+  flex: 1;
+  text-align: center;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  background: rgba(0, 188, 212, 0.1);
+}
+
+@media (max-width: 560px) {
+	main {
+		width: 100%;
+	}
+}
+

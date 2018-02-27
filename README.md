@@ -17,3 +17,6 @@ The results of my studies at The Rolling Scopes School
 * [css-recipes-and-layouts](/css-recipes-and-layouts)
 * [match-match-game](/match-match-game)
 * [zombie-rush-game](/zombie-rush-game)
+
+## Stage 3
+* [to-do-list](/to-do-list)
