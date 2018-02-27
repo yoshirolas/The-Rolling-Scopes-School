@@ -13,6 +13,7 @@ The results of my studies at The Rolling Scopes School
 
 ## Stage 2
 * [positions-and-floats](/positions-and-floats)
+* [presentation](/presentation)
 * [css-recipes-and-layouts](/css-recipes-and-layouts)
 * [match-match-game](/match-match-game)
 * [zombie-rush-game](/zombie-rush-game)
