@@ -2,7 +2,7 @@
 
 ##### `node index.js`
 
-## Node pagespeed
+## Task description
 
 You should write a script that makes requests to Google pagespeed api.
 

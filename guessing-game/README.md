@@ -1,9 +1,6 @@
 ### Guessing game
 
----
-⚠️ DO NOT SUBMIT PRS WITH SOLUTIONS TO THIS REPO ⚠️
-
-### Description
+### Task description
 
 Your task is to implement `GuessingGame` class
 

@@ -1,6 +1,8 @@
-[To see the result](https://yoshirolas.github.io/lookshop/)
-
 ## CSS Recipes & Layouts. Responsive Web Design
+
+### [The result](https://yoshirolas.github.io/lookshop/)
+
+## Task description
 
 Create web page, strictly according to: **[lookshop layout](https://github.com/StanislauZubovich/UXMiniLab/tree/2017-Q3/designs/responsive)**
 

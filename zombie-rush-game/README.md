@@ -1,8 +1,10 @@
-[To play zombie-rush-game](https://yoshirolas.github.io/zombie-rush/)
+### Game based on JavaScript + HTML Canvas
 
-[zombie-rush-game presentation](http://slides.com/yoshirolas/deck#/)
+### [Play Zombie Rush game](https://yoshirolas.github.io/zombie-rush/)
 
-### Game based on JavaScript + HTML or Canvas/WebGl/SVG.
+### [Zombie Rush game presentation](http://slides.com/yoshirolas/deck#/)
+
+## Task description
 
 ### Requirements
 #### Obligatory:

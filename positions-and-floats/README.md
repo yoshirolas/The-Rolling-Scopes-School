@@ -1,4 +1,4 @@
-[To see the result](https://yoshirolas.github.io/orange-rabbit/)
+### [The result](https://yoshirolas.github.io/orange-rabbit/)
 
 ## Техническое Задание
 

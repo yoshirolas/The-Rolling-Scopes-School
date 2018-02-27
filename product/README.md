@@ -1,6 +1,6 @@
 # Product of 2 numbers
 
-## Task
+## Task description
 
 Implement function, that for given two numbers, presented as strings will return their product
 

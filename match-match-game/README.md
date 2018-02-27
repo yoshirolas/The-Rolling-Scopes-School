@@ -1,6 +1,6 @@
-[To play match-math-game](https://yoshirolas.github.io/match-match-game/)
+### [Play match-match game](https://yoshirolas.github.io/match-match-game/)
 
-### Match-Match Game 
+### Task description
 
 ### Requirements
 

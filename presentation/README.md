@@ -1,6 +1,8 @@
-[Presentation: Git Features](http://slides.com/yoshirolas/hello-world-1#/)
-
 ### Presentation
+
+### [Presentation: Git Features](http://slides.com/yoshirolas/hello-world-1#/)
+
+### Task description
 You are to prepare a presentation on a given topic (offered or approved by mentor). The whole list of appropricate topics could be found here - https://gist.github.com/DaQuirm/3b6d585f3556039117576854ffd977eb.
 
 Requirements:
