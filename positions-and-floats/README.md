@@ -1,7 +1,7 @@
 ### Positions-and-floats
 
-Create web page, strictly according to:
-**[Orange-Rabbit layout](/layout/orange-rabbit.png)
+Create web page, strictly according to:<br>
+[Orange-Rabbit layout](https://github.com/yoshirolas/The-Rolling-Scopes-School/blob/master/positions-and-floats/layout/orange-rabbit.png) <br>
 Pixel Perfect is reference point of the task.
 
 ### [The result](https://yoshirolas.github.io/orange-rabbit/)
